@@ -8,6 +8,7 @@ public enum Day {
     SUNDAY("Sun");
 
     private String shortName;
+    private String longName;
 
     Day(String shortName) {
         this.shortName = shortName;
@@ -15,6 +16,10 @@ public enum Day {
 
     public String getShortName() {
         return shortName;
+    }
+
+    public String getLongName() {
+        return longName;
     }
 
 

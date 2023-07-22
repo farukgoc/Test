@@ -5,6 +5,7 @@ import java.util.function.*;
 
 public class Test {
     public static void main(String[] args) {
+
         String str ="Omer";
         System.out.println(str);
         StringBuilder stringBuilder = new StringBuilder(str);
@@ -93,5 +94,10 @@ public class Test {
         List<Integer>list = mergeTwoArrays.apply(arr1,arr2);
         System.out.println(list);
 
+
+
     }
+
+
+
 }
